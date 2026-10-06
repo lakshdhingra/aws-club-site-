@@ -1,0 +1,17 @@
+{
+  "compatibility_date": "2026-10-06",
+  "main": "index.mjs",
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "..\\public"
+  },
+  "name": "tanstack-start-ts-desktop-aws-site-aws-club-bu-website-main",
+  "compatibility_flags": ["nodejs_compat"],
+  "no_bundle": true,
+  "rules": [
+    {
+      "type": "ESModule",
+      "globs": ["**/*.mjs", "**/*.js"]
+    }
+  ]
+}
